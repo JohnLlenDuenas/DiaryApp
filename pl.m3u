@@ -1,7 +1,4 @@
-# Create an M3U playlist file with the provided IPTV links
-
-# Define the file content
-m3u_content = """#EXTM3U
+#EXTM3U
 
 #EXTINF:-1,Pluto TV Horror
 http://cfd-v4-service-channel-stitc...se&serverSideAds=false&checkedby:iptvcat.com=
@@ -35,14 +32,87 @@ https://cfd-v4-service-channel-stit...-985e-2f6f948982ee&userId=&serverSideAds=t
 
 #EXTINF:-1,Pluto TV Reaction
 https://cfd-v4-service-channel-stit...-a260-12b498279878&userId=&serverSideAds=true
-"""
 
-# Define file path
-file_path = "/mnt/data/iptv_playlist.m3u"
+#EXTINF:-1,Pluto TV Comedy
+https://cfd-v4-service-channel-stit...-85fa-7a3b2d1a87e2&userId=&serverSideAds=true
 
-# Save the M3U file
-with open(file_path, "w") as file:
-    file.write(m3u_content)
+#EXTINF:-1,Movies on Verizon
+https://cfd-v4-service-channel-stit...-8aef-06966e59891b&userId=&serverSideAds=true
 
-# Return the file path for downloading
-file_path
+#EXTINF:-1,Pluto TV Drama
+https://cfd-v4-service-channel-stit...-bd30-987c52f0cc69&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Fantastic
+https://cfd-v4-service-channel-stit...-9d49-abbceb00f273&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Romance
+https://cfd-v4-service-channel-stit...-917e-ae1aee1c0a07&userId=&serverSideAds=true
+
+#EXTINF:-1,Crime Movies
+https://cfd-v4-service-channel-stit...-9304-ef10eb566a21&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Thrillers
+https://cfd-v4-service-channel-stit...-b05e-c2abbdbd502d&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Terror
+https://cfd-v4-service-channel-stit...-93de-a6b6130e0763&userId=&serverSideAds=true
+
+#EXTINF:-1,Black Cinema
+https://cfd-v4-service-channel-stit...-9c72-44b7d01ac6f1&userId=&serverSideAds=true
+
+#EXTINF:-1,MovieSphere by Lionsgate
+https://cfd-v4-service-channel-stit...-a43b-5c95cdd43616&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Staff Picks
+https://cfd-v4-service-channel-stit...-b35c-f95723718333&userId=&serverSideAds=true
+
+#EXTINF:-1,00s Replay
+https://cfd-v4-service-channel-stit...-ab8d-76af51309f37&userId=&serverSideAds=true
+
+#EXTINF:-1,90s Throwback
+https://cfd-v4-service-channel-stit...-bab4-4dd338f0ad1d&userId=&serverSideAds=true
+
+#EXTINF:-1,80s Rewind
+https://cfd-v4-service-channel-stit...-8aba-60bd49556cde&userId=&serverSideAds=true
+
+#EXTINF:-1,70s Cinema
+https://cfd-v4-service-channel-stit...-b40b-29353b1e7880&userId=&serverSideAds=true
+
+#EXTINF:-1,Paramount Movie Channel
+https://cfd-v4-service-channel-stit...-9f9c-fbdd306acf78&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Westerns
+https://cfd-v4-service-channel-stit...-8203-38abe0eba07c&userId=&serverSideAds=true
+
+#EXTINF:-1,Classic Movies Channel
+https://cfd-v4-service-channel-stit...-80fd-6dd95d98103f&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Cult Films
+https://cfd-v4-service-channel-stit...-938d-36a5d7597ebf&userId=&serverSideAds=true
+
+#EXTINF:-1,Universal Monsters
+https://cfd-v4-service-channel-stit...-ae26-d29713a3571c&userId=&serverSideAds=true
+
+#EXTINF:-1,Flicks of Fury
+https://cfd-v4-service-channel-stit...-8c59-0e6bda1601ec&userId=&serverSideAds=true
+
+#EXTINF:-1,Movies for Gamers
+https://cfd-v4-service-channel-stit...-9564-c3728272a670&userId=&serverSideAds=true
+
+#EXTINF:-1,TV Land Sitcoms 2
+https://cfd-v4-service-channel-stit...-97a3-520b1b719af1&userId=&serverSideAds=true
+
+#EXTINF:-1,Comedy Central Pluto TV
+https://cfd-v4-service-channel-stit...-99ce-fd61a2a53db5&userId=&serverSideAds=true
+
+#EXTINF:-1,British Comedy
+https://cfd-v4-service-channel-stit...-a1aa-d1c54a2f6118&userId=&serverSideAds=true
+
+#EXTINF:-1,RiffTrax
+https://cfd-v4-service-channel-stit...-988d-03976744a8da&userId=&serverSideAds=true
+
+#EXTINF:-1,Always Funny Videos
+https://cfd-v4-service-channel-stit...-8b8e-c2abe95a1feb&userId=&serverSideAds=true
+
+#EXTINF:-1,FailArmy
+https://cfd-v4-service-channel-stit...-8ef1-398077a76c9e&userId=&serverSideAds=true
