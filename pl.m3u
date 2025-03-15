@@ -1,0 +1,48 @@
+# Create an M3U playlist file with the provided IPTV links
+
+# Define the file content
+m3u_content = """#EXTM3U
+
+#EXTINF:-1,Pluto TV Horror
+http://cfd-v4-service-channel-stitc...se&serverSideAds=false&checkedby:iptvcat.com=
+
+#EXTINF:-1,Pluto TV Classic Movies (England)
+https://service-stitcher.clusters.p...&appVersion=DNT&deviceType=web&deviceMake=web
+
+#EXTINF:-1,Pluto Documentaries
+http://cfd-v4-service-channel-stitc...sion=unknown&deviceType=web&deviceMake=Chrome
+
+#EXTINF:-1,Nickelodeon Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca673e0d0bd6c2689c94ce3livestitch/2977920/playlist.m3u8?terminate=false&sid=5730720c-9e54-41d9-b73d-eab8fdac7291&deviceDNT=0&deviceModel=web&deviceVersion=unknown&appName=web&deviceId=6c2a5108-30d3-11ef-9cf5-e9ddff8ff496&appVersion=unknown&deviceType=web&deviceMake=Chrome&clientTime=0&includeExtendedEvents=false&serverSideAds=false&profilesFromStream=true&checkedby:iptvcat.com=&startingOffset=0&checkedby:iptvcat.com=
+
+#EXTINF:-1,Nick Jr. Pluto
+http://cfd-v4-service-channel-stitc...sion=unknown&deviceType=web&deviceMake=Chrome
+
+#EXTINF:-1,Viper
+http://cfd-v4-service-channel-stitc...sion=unknown&deviceType=web&deviceMake=Chrome
+
+#EXTINF:-1,Pluto TV Cars
+https://cfd-v4-service-channel-stit...-930f-b677f16e3147&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Spotlight
+https://cfd-v4-service-channel-stit...-b4a5-81fa089644a3&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Icons
+https://cfd-v4-service-channel-stit...-8ee6-4aaf7468736e&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Action
+https://cfd-v4-service-channel-stit...-985e-2f6f948982ee&userId=&serverSideAds=true
+
+#EXTINF:-1,Pluto TV Reaction
+https://cfd-v4-service-channel-stit...-a260-12b498279878&userId=&serverSideAds=true
+"""
+
+# Define file path
+file_path = "/mnt/data/iptv_playlist.m3u"
+
+# Save the M3U file
+with open(file_path, "w") as file:
+    file.write(m3u_content)
+
+# Return the file path for downloading
+file_path
